@@ -1,15 +1,15 @@
 import { FcGoogle } from "react-icons/fc";
 import { FaBookmark } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
-import dominos from '../../../assets/dominos.svg'
+import dominos from "../../../assets/dominos.svg";
 import spotify from "../../../assets/spotify.svg";
 
 const SpotlightCard = () => {
   return (
     <div>
       <h2 className="text-purple font-medium text-2xl mb-3">Spotlight</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10">
-        <div className="card w-40 bg-white shadow-xl p-4 border border-grey">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 md:gap-10 lg:gap-10 xl:gap-10 gap-3">
+        <div className="card md:w-40 lg:w-40 xl:w-40 bg-white shadow-xl p-4 border border-grey">
           <div className="">
             <div className="flex justify-between items-center gap-1">
               <div className="">
@@ -35,7 +35,7 @@ const SpotlightCard = () => {
           </div>
         </div>
 
-        <div className="card w-40 bg-white shadow-xl p-4 border border-grey">
+        <div className="card md:w-40 lg:w-40 xl:w-40 bg-white shadow-xl p-4 border border-grey">
           <div className="">
             <div className="flex justify-between items-center gap-1">
               <div className="">
@@ -61,7 +61,7 @@ const SpotlightCard = () => {
           </div>
         </div>
 
-        <div className="card w-40 bg-white shadow-xl p-4 border border-grey">
+        <div className="card md:w-40 lg:w-40 xl:w-40 bg-white shadow-xl p-4 border border-grey">
           <div className="">
             <div className="flex justify-between items-center gap-1">
               <div className="">

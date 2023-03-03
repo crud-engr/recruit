@@ -18,7 +18,7 @@ const FilterBySalary = () => {
         min="0"
         max="100"
         value={salary}
-        className="range range-xs range-warning w-96"
+        className="range range-xs range-warning md:w-96 lg:md:w-96 xl:w-96"
         onInput={handleInput}
       />
     </div>
