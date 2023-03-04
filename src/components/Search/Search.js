@@ -8,7 +8,7 @@ const Search = () => {
           <div className="opacity-50 absolute top-4 left-3">
             <div className="flex justify-between items-center font-bold text-dark text-sm gap-1">
               <FaMapMarkerAlt />
-              <select>
+              <select className="bg-white">
                 <option>Lagos</option>
                 <option>Abuja</option>
               </select>

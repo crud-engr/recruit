@@ -23,12 +23,12 @@ const SpotlightCard = () => {
             <div className="my-4 flex justify-between items-center text-sm">
               <div className="flex items-center gap-1">
                 <AiFillStar size={20} color="#FFCC33" />
-                <span>4.5</span>
+                <span className="text-dark">4.5</span>
               </div>
-              <div>V. Island</div>
+              <div className="text-dark">V. Island</div>
             </div>
             <div className="flex justify-center">
-              <button className="btn btn-dark btn-xs lowercase font-light">
+              <button className="btn btn-dark btn-xs lowercase font-light text-white">
                 Check available offers
               </button>
             </div>
@@ -49,12 +49,12 @@ const SpotlightCard = () => {
             <div className="my-4 flex justify-between items-center text-sm">
               <div className="flex items-center gap-1">
                 <AiFillStar size={20} color="#FFCC33" />
-                <span>4.5</span>
+                <span className="text-dark">4.5</span>
               </div>
-              <div>Ikeja</div>
+              <div className="text-dark">Ikeja</div>
             </div>
             <div className="flex justify-center">
-              <button className="btn btn-dark btn-xs lowercase font-light">
+              <button className="btn btn-dark btn-xs lowercase font-light text-white">
                 Check available offers
               </button>
             </div>
@@ -75,12 +75,12 @@ const SpotlightCard = () => {
             <div className="my-4 flex justify-between items-center text-sm">
               <div className="flex items-center gap-1">
                 <AiFillStar size={20} color="#FFCC33" />
-                <span>4.5</span>
+                <span className="text-dark">4.5</span>
               </div>
-              <div>Ogun</div>
+              <div className="text-dark">Ogun</div>
             </div>
             <div className="flex justify-center">
-              <button className="btn btn-dark btn-xs lowercase font-light">
+              <button className="btn btn-dark btn-xs lowercase font-light text-white">
                 Check available offers
               </button>
             </div>

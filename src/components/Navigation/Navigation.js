@@ -9,7 +9,7 @@ const Navigation = () => {
 
   return (
     <nav className="shadow-sm w-full top-0 left-0 fixed z-50 mb-12">
-      <div className="md:flex bg-white py-5 md:p-4 px-7 items-center justify-between">
+      <div className="md:flex bg-white py-5 md:p-4 px-7 items-center justify-between text-dark">
         <div className="flex items-center px-2 mx-2">
           <Link to="/" className="align-middle">
             <Logo />

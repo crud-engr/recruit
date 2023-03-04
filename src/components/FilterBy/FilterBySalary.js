@@ -1,14 +1,14 @@
 import { useState } from "react";
 
 const FilterBySalary = () => {
-  const [salary, setSalary] = useState(0);
+  const [salary, setSalary] = useState(20);
 
   const handleInput = (e) => {
     setSalary(e.target.value);
   };
 
   return (
-    <div className="mb-5">
+    <div className="mb-5 text-dark">
       <h1 className="py-2">
         {" "}
         <span className="text-purple">Salary</span> : {salary},000
